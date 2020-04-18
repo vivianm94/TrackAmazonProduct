@@ -7,3 +7,14 @@ H:\Track\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.p
 H:\Track\ConsoleApplication1\ConsoleApplication1\bin\Debug\HtmlAgilityPack.dll
 H:\Track\ConsoleApplication1\ConsoleApplication1\bin\Debug\HtmlAgilityPack.pdb
 H:\Track\ConsoleApplication1\ConsoleApplication1\bin\Debug\HtmlAgilityPack.xml
+H:\TrackAmazonProduct-master\TrackAmazonProduct-master\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+H:\TrackAmazonProduct-master\TrackAmazonProduct-master\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+H:\TrackAmazonProduct-master\TrackAmazonProduct-master\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+H:\TrackAmazonProduct-master\TrackAmazonProduct-master\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+H:\TrackAmazonProduct-master\TrackAmazonProduct-master\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+H:\TrackAmazonProduct-master\TrackAmazonProduct-master\ConsoleApplication1\ConsoleApplication1\bin\Debug\HtmlAgilityPack.dll
+H:\TrackAmazonProduct-master\TrackAmazonProduct-master\ConsoleApplication1\ConsoleApplication1\bin\Debug\HtmlAgilityPack.pdb
+H:\TrackAmazonProduct-master\TrackAmazonProduct-master\ConsoleApplication1\ConsoleApplication1\bin\Debug\HtmlAgilityPack.xml
+H:\TrackAmazonProduct-master\TrackAmazonProduct-master\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+H:\TrackAmazonProduct-master\TrackAmazonProduct-master\ConsoleApplication1\ConsoleApplication1\bin\Debug\Newtonsoft.Json.dll
+H:\TrackAmazonProduct-master\TrackAmazonProduct-master\ConsoleApplication1\ConsoleApplication1\bin\Debug\Newtonsoft.Json.xml
