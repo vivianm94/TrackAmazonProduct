@@ -42,10 +42,6 @@ namespace ConsoleApplication1
 
             for (int k=0;k<productCount; k++)
             {
-                // string url = "https://www.amazon.in/GENERIC-Ultra-Mini-Bluetooth-Dongle-Adapter/dp/B0117H7GZ6/ref=sr_1_14?crid=36FN332QCAZBD&dchild=1&keywords=earphones+under+200+rupees&qid=1586759890&sprefix=earp%2Caps%2C346&sr=8-14";
-
-                //string url = "https://www.amazon.in/iVoltaa-Micro-USB-Type-Adapter/dp/B075F927V2/ref=lp_1389401031_1_4?s=electronics&ie=UTF8&qid=1586778682&sr=1-4";
-
                 string url = ((ConsoleApplication1.RootObject)objJson).product[k].url;
 
                 HttpClient httpClient = new HttpClient();
@@ -58,9 +54,7 @@ namespace ConsoleApplication1
                 string nodeProduct = htmlDocument.DocumentNode.SelectNodes("//span[@id='productTitle']")[0].InnerText.ToString().Trim();
 
                 decimal nodePrice = Decimal.Parse(Regex.Replace(htmlDocument.DocumentNode.SelectNodes("//span[@id='priceblock_ourprice']")[0].InnerText.ToString().Trim().Replace(" ", ""), @"\s+", String.Empty), NumberStyles.Currency);
-
-                //Console.WriteLine("ProductName:" + nodeProduct + " Price: " + nodePrice);
-
+                
                 if (nodePrice <= int.Parse(((ConsoleApplication1.RootObject)objJson).product[k].value))
                 {
                     sendMail = true;

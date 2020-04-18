@@ -42,48 +42,6 @@ namespace ConsoleApplication1
             System.IO.File.WriteAllText(@"H:\TrackAmazonProduct-master\TrackAmazonProduct-master\ConsoleApplication1\ConsoleApplication1\product.json", strJson);      
         }    
 
-        //public void readFile()
-        //{
-        //    string Json = File.ReadAllText(@"H:\TrackAmazonProduct-master\TrackAmazonProduct-master\ConsoleApplication1\ConsoleApplication1\json1.json");
-        //    var dict = JsonConvert.DeserializeObject<IDictionary>(Json);
-
-        //    foreach (var newdic in dict)
-        //    {
-        //        var newd = newdic;
-        //        var key = ((System.Collections.DictionaryEntry)newd).Key;
-
-        //        if (key.Equals("medications"))
-        //        {
-        //            var newdn = ((System.Collections.DictionaryEntry)newd).Value;
-        //            JArray Jary = JArray.Parse(newdn.ToString());
-        //            foreach (JObject newdic12 in Jary)
-        //            {
-        //                var ne = newdic12;
-
-        //                foreach (var rea in ne.Children())
-        //                {
-        //                    var newrea = rea;
-
-        //                    if (((Newtonsoft.Json.Linq.JProperty)newrea).Name.Equals("betaBlocker"))
-        //                    {
-        //                        var newwe = newrea.Values().Children().ToArray();
-
-        //                        foreach (var newa12 in newwe)
-        //                        {
-        //                            var property = ((Newtonsoft.Json.Linq.JProperty)(newa12)).Name;
-
-        //                            if(property.Equals("dose"))
-        //                            {
-        //                                ((Newtonsoft.Json.Linq.JProperty)newa12).Value = "asdf";
-        //                            }
-        //                        }
-                               
-        //                    }
-        //                }
-        //            }
-        //        }
-        //    }
-        //}
 
 
         public object readFile()
